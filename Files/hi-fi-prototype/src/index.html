@@ -6,25 +6,26 @@
 
 		<meta charset="utf-8">
 
-		<title>Better Budgeting - Proto.io</title>
+		<title> Better Budgeting - Will Tate - Proto.io</title>
 
 		
 			<meta name="HandheldFriendly" content="True">
-			<meta name="MobileOptimized" content="1080"> 
+			<meta name="MobileOptimized" content="390"> 
 
 			
 			
 			
-			<meta name="viewport" content="minimum-scale=0.33, maximum-scale=0.33, initial-scale=0.33, user-scalable=no, shrink-to-fit=no" />
+			<meta name="viewport" content="minimum-scale=1.00, maximum-scale=1.00, initial-scale=1.00, user-scalable=no, shrink-to-fit=no" />
 
+			
+				<meta name="apple-mobile-web-app-capable" content="yes" />
+				<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 			
 
 			<meta name="format-detection" content="telephone=no">
 
 
 			
-				<meta name="mobile-web-app-capable" content="yes">
-            
 
             
             <link rel="icon" sizes="192x192" href="./src/assets/branding/android-icon-hires.png">
@@ -88,19 +89,22 @@
 
 			
 			<script type="text/javascript" src="./libraries/common/components.js"></script> 
-			<link type="text/css" rel="Stylesheet" href="./libraries/common/components.3.00.css" /> 
+			<link type="text/css" rel="Stylesheet" href="./libraries/common/components.1.00.css" /> 
 
 			
-					<script type="text/javascript" src="./libraries/material/components.js"></script> 
-					<link type="text/css" rel="Stylesheet" href="./libraries/material/components.3.00.css" /> 
+					<script type="text/javascript" src="./libraries/ios7/components.js"></script> 
+					<link type="text/css" rel="Stylesheet" href="./libraries/ios7/components.1.00.css" /> 
+				
+					<script type="text/javascript" src="./libraries/ios9/components.js"></script> 
+					<link type="text/css" rel="Stylesheet" href="./libraries/ios9/components.1.00.css" /> 
 				
 				<script type="text/javascript" src="./data/data.js"></script> 
-			<script type="text/javascript" src="./webkitmask/maskimages.js"></script> 
+			
 
 		<style>
-			body { width: 1080px; height: 1920px; }
-			.landscape, .landscape .prx-page { min-height: 1080px; }
-			.portrait, .portrait .prx-page { min-height: 1920px; }
+			body { width: 390px; height: 844px; }
+			.landscape, .landscape .prx-page { min-height: 390px; }
+			.portrait, .portrait .prx-page { min-height: 844px; }
 		</style>
 
 		<script type="text/javascript">
@@ -118,14 +122,14 @@
 			prx.nodejsassetsserver.subdomainprefix = "https://a3";
 			prx.nodejsassetsserver.maxsubdomains = "20";
 
-			prx.device_library = 'material';
+			prx.device_library = 'ios9';
 			prx.devices[prx.device] = {
 				name: prx.device
 				,defaultOrientation: 'portrait'
 				,portrait_applies: 1 //new
-				,portrait: [1080,1920]
+				,portrait: [390,844]
 				,landscape_applies: 1 //new
-				,landscape: [1920,1080]
+				,landscape: [844,390]
 				,allow_orientation_change: 1 //new
 				,statusbar_skin: 'default' // new
 				,statusbarheightportrait: 0
@@ -133,24 +137,24 @@
 				,navigationbar_skin: 'default' //new
 				,navigationbarheightportrait: 0
 				,navigationbarheightlandscape: 0
-				,normalportrait: [1080,1920]
-				,normallandscape: [1920,1080]
-				,device_s3bucket: 'ed622799-31ac-4b1f-b50e-1232e370ebb7'
-				,dpr: '3.00'
-				,deviceType: "default"
+				,normalportrait: [390,844]
+				,normallandscape: [844,390]
+				,device_s3bucket: 'ee774ce2-0226-4d4b-b35e-dd4649e6ed40'
+				,dpr: '1.00'
+				,deviceType: "iphone13"
                 ,showiPhoneXNotch: false
                 ,hasCustomSkinNotch: false
 				,appleWatchRoundedCorners: false
 				,scrollType: "default"
-				,initialscale: 0.33
+				,initialscale: 1.00
 				,targetdensitydpi: "device-dpi"
 			}
 			// save a copy of the device in the player state
 			prx.currentPlayerStatus.projectDevice = prx.toolbox.clone(prx.devices[prx.device]);
-			prx.currentPlayerStatus.targetDevice = {"ISANDROIDTABLET":0,"ISIPOD":0,"ISCHROME":0,"ISIOS":0,"ISMSIE":0,"ISMOZILLA":0,"isAndroid-Pad":0,"ISOPERA":0,"ISWEBKIT":0,"SOSVERSION":{"CBUILDVER":"","CMAJORVER":"","CMINORVER":"","CTEXT":"","IMINORVER":0,"IMAJORVER":0,"IBUILDVER":0},"ISIPAD":0,"ISMOBILE":1,"ISSAFARI":0,"ISIPHONE":0,"ISWINDOWS":0,"ISWINDOWSTOUCH":0,"ISDEVICE":1,"ISANDROID":1,"ISCUSTOM":0};
+			prx.currentPlayerStatus.targetDevice = {"ISANDROIDTABLET":0,"ISIPOD":0,"ISCHROME":0,"ISIOS":1,"ISMSIE":0,"ISMOZILLA":0,"isAndroid-Pad":0,"ISOPERA":0,"ISWEBKIT":0,"SOSVERSION":{"CBUILDVER":"","CMAJORVER":"","CMINORVER":"","CTEXT":"","IMINORVER":0,"IMAJORVER":0,"IBUILDVER":0},"ISIPAD":0,"ISMOBILE":1,"ISSAFARI":0,"ISIPHONE":1,"ISWINDOWS":0,"ISWINDOWSTOUCH":0,"ISDEVICE":1,"ISANDROID":0,"ISCUSTOM":0};
 			prx.releaseChannel = 'stable';
 
-			prx.projectsettings.id = 'ac406855-42c7-4c95-85c0-81207216b616';
+			prx.projectsettings.id = '007d3486-783d-40d3-9dea-1b265c5e0d18';
 			prx.projectsettings.s3b = 'kylelong-1436319-37551734-c6b0-0a44-79e5d6ac8c28c02f';
 			prx.projectsettings.account = 'kylelong';
 			prx.projectsettings.statusbar = '0'; 
@@ -172,12 +176,12 @@
 			var sLinkedAssets = [];
 			
 
-			prx.csrf_token = '6D6A29F4ED6CFB8BED98D10A0834DBB74ADC906FCA5E70A914B41177DBCAFBE6';
+			prx.csrf_token = '5337B8B12F32C20CFFA2C53B8F0CCDDA571A74A3DCF523221A139F4CC988FEE2';
 
             
 
             
-                            prx.assetsAccessToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkIjp7InVpZCI6Ii0xIiwicHJvamVjdF9pZCI6ImFjNDA2ODU1LTQyYzctNGM5NS04NWMwLTgxMjA3MjE2YjYxNiJ9LCJ2IjowLCJleHAiOjE2ODE5Njg3MzQsImlhdCI6MTY4MTc4ODczNH0.hgZG7y5-Z70nc_7hCgv20eTcyVIMyEUQsaIP48c8GfA";
+                            prx.assetsAccessToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkIjp7InVpZCI6Ii0xIiwicHJvamVjdF9pZCI6IjAwN2QzNDg2LTc4M2QtNDBkMy05ZGVhLTFiMjY1YzVlMGQxOCJ9LCJ2IjowLCJleHAiOjE2ODIwMTk4MzMsImlhdCI6MTY4MTgzOTgzM30.kFPM5Yr86ggLJsJ5Nycsa19ZJti-dSyQelKtVowkF14";
 
 			prx.iniPlayer.iniPreLoad();
 
@@ -200,9 +204,17 @@
 							
 								<div class="prx-page" data-role="page" id="p-3" data-id="3"></div>
 							
+								<div class="prx-page" data-role="page" id="p-4" data-id="4"></div>
+							
 								<div class="prx-page" data-role="page" id="p-5" data-id="5"></div>
 							
+								<div class="prx-page" data-role="page" id="p-6" data-id="6"></div>
+							
 								<div class="prx-page" data-role="page" id="p-7" data-id="7"></div>
+							
+								<div class="prx-page" data-role="page" id="p-9" data-id="9"></div>
+							
+								<div class="prx-page" data-role="page" id="p-10" data-id="10"></div>
 							
 					<div id="navigationbar"></div>
 					<div id="overlay"></div>
